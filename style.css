@@ -14,9 +14,21 @@ h1 {
 ul {
     text-align: center;
     padding: 0px;
-
 }
 
 li {
     display: inline-block;
+}
+
+.speles_laukums {
+    background: black;
+    width: 520px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.bloks{
+    background: red;
 }
