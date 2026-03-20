@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonifly
+from flask import Flask, render_template, request, jsonify
 from pathlib import Path
 import json
 
