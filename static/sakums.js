@@ -4,6 +4,7 @@ function saktSpeli()
     if (ievaditsVards == '')
     {
         alert('Ievadi savu vārdu!');
+        
     }
     else
     {
