@@ -1,4 +1,4 @@
-//no URL iegūst vārdu//no URL iegūst vārdu
+//no URL iegūst vārdu
 let adrese = window.location.hash.substring(1);
 let vards = decodeURI(adrese.split(',')[0] || '').trim();
 
@@ -109,11 +109,11 @@ function veiktGajienu(bloks, emoji) {
 
                 }, 300);
             }
-        } else{
+        } else {
             //ja atvērtie 2 laukumi nav vienādi
-            setTimeout(() =>{
-                pirmais.bloks.innerText ="";
-                otrais.bloks.innerText ="";
+            setTimeout(() => {
+                pirmais.bloks.innerText = "";
+                otrais.bloks.innerText = "";
                 pirmais.bloks.classList.remove("atverts");
                 otrais.bloks.classList.remove("atverts");
                 pedejieDivi = [];
